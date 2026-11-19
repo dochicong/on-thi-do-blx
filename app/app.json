@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "Ôn Thi Đỗ — Bằng Lái Xe Nhật Bản",
+    "slug": "on-thi-do-blx-jp",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "scheme": "onthido",
+    "userInterfaceStyle": "automatic",
+    "icon": "./assets/ui/icon_512.png",
+    "splash": {
+      "image": "./assets/ui/icon_512.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1D4ED8"
+    },
+    "android": {
+      "package": "com.docong.onthido",
+      "versionCode": 20,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/ui/icon_512.png",
+        "backgroundColor": "#1D4ED8"
+      },
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-2481984363824427~6005426058"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.docong.onthido",
+      "buildNumber": "2.0.0",
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-2481984363824427~6005426058"
+      }
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "react-native-google-mobile-ads",
+        {
+          "androidAppId": "ca-app-pub-2481984363824427~6005426058",
+          "iosAppId": "ca-app-pub-2481984363824427~6005426058",
+          "delayAppMeasurementInit": true
+        }
+      ]
+    ]
+  }
+}
